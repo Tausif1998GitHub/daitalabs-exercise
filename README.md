@@ -458,52 +458,6 @@ For questions, bug reports, or feature requests:
 
 ---
 
-## 📊 Project Stats
-
-- **Lines of Code:** ~2,500+
-- **Files:** 15+
-- **Dependencies:** 20+
-- **Test Coverage:** 85%
-- **Build Time:** < 30 seconds
-- **API Response Time:** < 200ms average
-
----
-
 **⭐ If you find this project useful, please consider giving it a star on GitHub!**
 ```
 
----
-
-## 📁 File Structure for GitHub Repository
-
-When uploading to GitHub, organize your files like this:
-```
-production-planning-dashboard/
-│
-├── README.md                          # This file
-├── .gitignore
-├── docker-compose.yml
-├── LICENSE
-│
-├── backend/
-│   ├── main.py
-│   ├── requirements.txt
-│   ├── .env.example
-│   └── Dockerfile
-│
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── App.js
-│   │   ├── components/
-│   │   │   ├── FileUploader.js
-│   │   │   ├── ProductionCard.js
-│   │   │   └── ProductionDashboard.js
-│   │   └── index.js
-│   ├── package.json
-│   └── Dockerfile
-│
-└── images/                            # Create this folder
-    ├── Screenshot_2025-12-03_at_12_31_07_AM.png
-    ├── Screenshot_2025-12-03_at_12_32_39_AM.png
-    └── Screenshot_2025-12-03_at_12_34_42_AM.png
