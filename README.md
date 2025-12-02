@@ -93,12 +93,10 @@ Each card shows:
 
 ---
 
-## 📸 Screenshots (Dashboard Outputs)
+## 📸 Dashboard Outputs
 
 ### **1. Adidas Fall 2025 Production Data**
 The dashboard successfully parsed and displayed Adidas production data with 14 total items, showing order details, fabric specifications, colors, quantities, and production timelines.
-
-![Adidas Dashboard Output](./images/Screenshot_2025-12-03_at_12_31_07_AM.png)
 
 **Key Metrics:**
 - Total Orders: 14
@@ -111,8 +109,6 @@ The dashboard successfully parsed and displayed Adidas production data with 14 t
 ### **2. Under Armour Fall 2025 Production Data**
 Successfully processed Under Armour's messy Excel format, extracting fabric compositions (Nylon/Spandex blends), order codes (UA5739-QF, UA-1001, etc.), and production statuses.
 
-![Under Armour Dashboard Output](./images/Screenshot_2025-12-03_at_12_32_39_AM.png)
-
 **Key Metrics:**
 - Total Orders: 14
 - Pending: 6
@@ -123,8 +119,6 @@ Successfully processed Under Armour's messy Excel format, extracting fabric comp
 
 ### **3. Nike Fall 2025 Production Data**
 The system handled Nike's unique column naming conventions, properly parsing fabric types (Reqd Wt, Cotton/Polyester blends), style codes (8GE4S1V2Q, MPEE16R3C), and timeline data.
-
-![Nike Dashboard Output](./images/Screenshot_2025-12-03_at_12_34_42_AM.png)
 
 **Key Metrics:**
 - Total Orders: 13
