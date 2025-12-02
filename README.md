@@ -2,6 +2,7 @@
 # Production Planning Dashboard — Implementation Summary
 
 This project delivers a fully working **Production Planning Dashboard** with:
+
 - **FastAPI backend**
 - **MongoDB database**
 - **React frontend**
@@ -29,7 +30,7 @@ The system parses messy Excel files from different vendors (e.g., Adidas, Under 
 
 ### **2. Fallback Heuristic Parser**
 When GPT is unavailable or fails:
-- Normalize column names (lowercase, underscores)
+- Normalize column names (`lowercase`, underscores)
 - Auto-detect fields using heuristics
 - Extract dates, quantities, and raw context
 - Generate `in_production`, `pending`, or `completed` statuses
@@ -79,7 +80,7 @@ Each card shows:
 - Quantity
 - Status badge
 - Timeline (with auto date formatting)
-- "View Details" CTA
+- “View Details” CTA
 
 ### **7. FileUploader Component**
 - File selection UI
@@ -89,7 +90,7 @@ Each card shows:
 
 ### **8. Reset Database**
 - Fully implemented backend endpoint  
-- Connected to frontend "Reset DB" button  
+- Connected to frontend “Reset DB” button  
 - Clears Mongo collection and refreshes UI instantly  
 
 ---
@@ -97,18 +98,22 @@ Each card shows:
 ## 📸 Screenshots (Outputs)
 
 ### **1. Adidas File Output**
-![Adidas Output](./images/Screenshot%202025-12-03%20at%2012.31.07%20AM.png)
+![Screenshot](./images/Screenshot%202025-12-03%20at%2012.31.07 AM.png)
 
 ### **2. Under Armour File Output**
-![Under Armour Output](./images/Screenshot%202025-12-03%20at%2012.32.39%20AM.png)
+![Screenshot](./images/Screenshot%202025-12-03%20at%2012.32.39 AM.png)
 
 ### **3. Nike File Output**
-![Nike Output](./images/Screenshot%202025-12-03%20at%2012.34.42%20AM.png)
+![Screenshot](./images/Screenshot%202025-12-03%20at%2012.34.42 AM.png)
 
-**Alternative paths (if local paths don't work):**
-- Adidas: `/mnt/data/Screenshot 2025-12-03 at 12.31.07 AM.png`
-- Under Armour: `/mnt/data/Screenshot 2025-12-03 at 12.32.39 AM.png`
-- Nike: `/mnt/data/Screenshot 2025-12-03 at 12.34.42 AM.png`
+If local paths are not used, here are the raw uploaded versions:
+
+- Adidas:  
+  `/mnt/data/Screenshot 2025-12-03 at 12.31.07 AM.png`
+- Under Armour:  
+  `/mnt/data/Screenshot 2025-12-03 at 12.32.39 AM.png`
+- Nike:  
+  `/mnt/data/Screenshot 2025-12-03 at 12.34.42 AM.png`
 
 ---
 
